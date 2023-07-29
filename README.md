@@ -46,6 +46,7 @@ The following test scenarios are included in the suite:
 12. Print "Registration Test passed" if all the steps are executed successfully without any exceptions.
 
 
+
 **2. Registration and Login Error Handling Scenario:**
 
 1. Load test data from the JSON file (`pages/test_data_magento.json`).
@@ -68,6 +69,7 @@ The following test scenarios are included in the suite:
    d. Enter a valid email and an invalid password.
    e. Click on the "Sign In" button and assert the error handling for an invalid signin.
 7. Print "Registration and Login Error Handling Test passed" if all the steps are executed successfully without any exceptions.
+
 
 
 **3. Test Purchase Scenario:**
@@ -114,6 +116,7 @@ The following test scenarios are included in the suite:
 9. Print "Purchase Test passed" if all the steps are executed successfully without any exceptions.
 
 
+
 **4. Filter and Search Test Scenario:**
 
 1. Load test data from the JSON file (`pages/test_data_magento.json`).
@@ -146,6 +149,7 @@ The following test scenarios are included in the suite:
 
 10. Print "Filter Test passed" if all the steps are executed successfully without any exceptions.
 
+
 ## How to Run the Tests
 To run the tests, you can use the main_script.py provided in the repository. The script allows you to specify which test scenario to run as follows:
 
@@ -153,6 +157,7 @@ python main_script.py test_name
 Replace test_name with one of the following options: purchase, registration, filter_search, or error_handling.
 
 Apologies for the oversight. Selenium WebDriver is indeed a requirement for running the Web Application Regression Testing Suite. Here's the updated list of requirements:
+
 
 **Requirements:**
 
@@ -166,6 +171,7 @@ Apologies for the oversight. Selenium WebDriver is indeed a requirement for runn
 
 Please ensure you have installed all these libraries in your Python environment to successfully execute the tests in the Web Application Regression Testing Suite.
 
+
 **Installation**
 1. Clone this repository to your local machine.
 2. Install the required Python packages using pip:
@@ -173,8 +179,10 @@ Please ensure you have installed all these libraries in your Python environment 
 - pip install requests
 - pip install Faker
 
+
 **Feedback and Contributions**
 Feedback and contributions to this testing suite are welcome! Feel free to open an issue or submit a pull request.
+
 
 **License**
 This project is licensed under the MIT License.
