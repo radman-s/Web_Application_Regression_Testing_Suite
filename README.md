@@ -168,6 +168,8 @@ Apologies for the oversight. Selenium WebDriver is indeed a requirement for runn
 5. Requests library
 6. JSON library
 7. argparse library
+8. Chrome WebDriver: Since the test suite is designed to work with Google Chrome, you need to download the Chrome WebDriver executable compatible with your Chrome browser version. 
+   To download and set up Chrome WebDriver, follow the instructions provided in the official Selenium documentation: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 Please ensure you have installed all these libraries in your Python environment to successfully execute the tests in the Web Application Regression Testing Suite.
 
